@@ -343,28 +343,18 @@ header .navbar .cta-btn a:hover {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
-  color: #000;
+  color: #00000;
   height: calc(100vh - 117px);
   min-height: 700px;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
   font-size: 40px;
-  color: #000;
+  color: #00000;
   line-height: 1.2;
   font-weight: 800 !important;
   text-transform: uppercase;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 @media (max-width: 991px) {
@@ -377,7 +367,7 @@ header .navbar .cta-btn a:hover {
   font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
-  color: white;
+  color: grey;
 }
 
 .owl-carousel.home-slider.inner-page .slider-item {
@@ -386,7 +376,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .owl-carousel.home-slider.inner-page .slider-item .slider-text {
-  color: #fff;
+  color: #000;
   height: calc(50vh - 117px);
   min-height: 500px;
 }
