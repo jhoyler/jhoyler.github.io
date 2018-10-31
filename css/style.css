@@ -343,7 +343,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
-  color: #fff;
+  color: #000;
   height: calc(100vh - 117px);
   min-height: 700px;
   text-shadow:
@@ -356,7 +356,7 @@ header .navbar .cta-btn a:hover {
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
   font-size: 40px;
-  color: #fff;
+  color: #000;
   line-height: 1.2;
   font-weight: 800 !important;
   text-transform: uppercase;
