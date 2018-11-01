@@ -367,6 +367,7 @@ header {
 .owl-carousel.home-slider {
   z-index: 1;
   position: relative;
+  overflow: scroll;
 }
 
 .owl-carousel.home-slider .owl-nav {
