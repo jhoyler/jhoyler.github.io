@@ -393,6 +393,8 @@ header {
   background-position: center center;
   height: calc(100vh - 117px);
   min-height: 700px;
+  overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -777,7 +779,7 @@ header {
 .link-thumbnail {
   display: block;
   position: relative;
-  overflow: scroll;
+  overflow: hidden;
   text-align: center;
 }
 
