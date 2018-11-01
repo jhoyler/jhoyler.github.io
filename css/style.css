@@ -1,10 +1,15 @@
+@font-face { 
+  font-family: "HoltwoodOneSC";
+  src: url("../css/HoltwoodOneSC.ttf"); 
+}
+
 body {
   background: #fff;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  color: #868e96;
+  color: black;
 }
 
 a {
@@ -20,6 +25,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
+  font-family: "HoltwoodOneSC";
 }
 
 .btn, .form-control {
@@ -29,14 +35,27 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-primary {
+  font-family: "HoltwoodOneSC";
   color: #B22222;
   color: #fff;
   border-width: 2px;
+  border: 2px solid black;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  border-color: #B33636;
-  background: #B33636;
+  border-color: #c43b3b;
+  background: #c43b3b;
+  border: 2px solid black;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .btn.btn-sm {
@@ -54,7 +73,7 @@ h1, h2, h3, h4, h5 {
 
 .btn.btn-outline-white {
   border-width: 2px;
-  border-color: #fff;
+  border-color: #000;
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
@@ -62,8 +81,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
-  background: #fff;
-  color: #000;
+  background: #c43b3b;
+  color: #fff;
 }
 
 /* Header */
@@ -76,9 +95,16 @@ header {
 }
 
 header .navbar-brand {
+  font-family: "HoltwoodOneSC";
   text-transform: uppercase;
   letter-spacing: .2em;
   font-weight: 400;
+  color: #B22222;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 header .navbar-brand span {
@@ -165,7 +191,17 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link.active {
+  font-family:"HoltwoodOneSC";
   color: #B22222 !important;
+  text-shadow: 
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+header .navbar .nav-link:hover {
+  color: #c43b3b !important;
 }
 
 header .navbar .dropdown-menu {
@@ -206,6 +242,7 @@ header .navbar .cta-btn a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
+  border: 4px solid black;
 }
 
 header .navbar .cta-btn a:hover {
@@ -214,6 +251,13 @@ header .navbar .cta-btn a:hover {
   box-shadow: 2px 0 30px -5px rgba(244, 178, 20, 0.9);
 }
 
+header {
+-webkit-box-shadow:0px 1px 1px #000;
+ -moz-box-shadow:0px 1px 1px #000;
+ box-shadow:0px 1px 1px #000;
+}  
+
+}
 .cta-overlap {
   margin-top: -4em;
   position: relative;
@@ -221,10 +265,17 @@ header .navbar .cta-btn a:hover {
 }
 
 .cta-overlap .text {
+  font-family: "HoltwoodOneSC";
   background: #B22222;
   padding: 3em 2em;
   -webkit-box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
+  border: 4px solid black;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 @media (max-width: 991px) {
@@ -367,7 +418,7 @@ header .navbar .cta-btn a:hover {
   font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
-  color: grey;
+  color: black;
 }
 
 .owl-carousel.home-slider.inner-page .slider-item {
