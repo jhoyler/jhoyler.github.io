@@ -776,7 +776,7 @@ header {
 .link-thumbnail {
   display: block;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
   text-align: center;
 }
 
