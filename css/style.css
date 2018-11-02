@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-outline-primary {
+  font-family:"HoltwoodOneSC";
   border-width: 2px;
   color: #B22222;
 }
@@ -87,7 +88,7 @@ h1, h2, h3, h4, h5 {
 
 /* Header */
 header {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -105,7 +106,7 @@ header .navbar-brand {
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;
+    1px 1px 0 #000;  
 }
 
 header .navbar-brand span {
@@ -646,7 +647,7 @@ header {
   text-transform: uppercase;
 }
 
-.media-feature:hover, .media-feature:focus {
+/*.media-feature:hover, .media-feature:focus {
   -webkit-box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1.05);
@@ -654,7 +655,7 @@ header {
   transform: scale(1.05);
   z-index: 2;
   border-bottom: 10px solid #B22222;
-}
+} */
 
 .media-custom {
   background: #fff;
@@ -678,10 +679,10 @@ header {
   color: #868e96;
 }
 
-.media-custom:focus, .media-custom:hover {
+/*.media-custom:focus, .media-custom:hover {
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-}
+} */
 
 .media-custom .media-body {
   padding: 30px;
@@ -858,7 +859,7 @@ header {
 }
 
 .link-thumbnail:hover .icon {
-  opacity: 1;
+  opacity: 0;
   visibility: visible;
   margin-top: 0px;
 }
