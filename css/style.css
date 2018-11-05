@@ -1,6 +1,6 @@
 /*@font-face { 
-  font-family: "HoltwoodOneSC";
-  src: url("../css/HoltwoodOneSC.ttf"); 
+  font-family: "Copperplate Gothic";
+  src: url("/css/Copperplate Gothic.ttf"); 
 }
 */
 
@@ -796,7 +796,6 @@ header {
 .link-thumbnail {
   display: block;
   position: relative;
-  overflow: hidden;
   text-align: center;
 }
 
