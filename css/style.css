@@ -405,7 +405,7 @@ header {
 
 .owl-carousel.home-slider .slider-item {
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
   height: calc(100vh - 117px);
@@ -796,6 +796,7 @@ header {
 .link-thumbnail {
   display: block;
   position: relative;
+  overflow: hidden;
   text-align: center;
 }
 
