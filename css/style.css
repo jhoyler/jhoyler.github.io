@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 
 .btn.btn-primary {
   font-family: "Copperplate Gothic Light";
-  color: #B22222;
+  color: #000;
   color: #fff;
   border-width: 2px;
   border: 2px solid black;
@@ -49,8 +49,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  border-color: #c43b3b;
-  background: #c43b3b;
+  border-color: #c10b1a;
+  background: #c10b1a;
   border: 2px solid black;
   text-shadow:
    -1px -1px 0 #000,
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 .btn.btn-outline-primary {
   font-family:"Copperplate Gothic Light";
   border-width: 2px;
-  color: #B22222;
+  color: #c10b1a;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
-  background: #c43b3b;
+  background: #c10b1a;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ header .navbar-brand {
   letter-spacing: .2em;
   font-size: 1.5vw;
   font-weight: 400;
-  color: #B22222;
+  color: #c10b1a;
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -123,7 +123,7 @@ header .navbar-brand {
 }
 
 header .navbar-brand span {
-  color: #B22222;
+  color: #c10b1a;
 }
 
 header .top-bar {
@@ -197,7 +197,7 @@ header .navbar {
 header .navbar .nav-link {
   font-family:"Open-Sans", "Copperplate Gothic Light";
   font-size: 18px;
-  font-weight:bold;
+  /* font-weight:bold; */
   color: black !important; 
   padding: 1.7rem 1rem;
   outline: none !important;
@@ -214,12 +214,13 @@ header .navbar .nav-link {
 header .navbar .nav-link.active {
   font-family:"Copperplate Gothic Light";
   font-weight:bold;
-  color: #c43b3b !important;
+  color: #c10b1a !important;
   text-shadow: text-shadow: #000 0px 0px 1px; 
+
 }
 
 header .navbar .nav-link:hover {
-  color: #c43b3b !important;
+  color: #c10b1a !important;
 }
 
 header .navbar .dropdown-menu {
@@ -234,12 +235,12 @@ header .navbar .dropdown-menu {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #c43b3b;
+  background: #c10b1a;
   color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #c43b3b;
+  background: #c10b1a;
   color: #fff;
 }
 
@@ -249,7 +250,7 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar .cta-btn a {
-  background: #B22222;
+  background: #c10b1a;
   color: #000 !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -284,7 +285,7 @@ header {
 
 .cta-overlap .text {
   font-family: "Copperplate Gothic Light";
-  background: #B22222;
+  background: #c10b1a;
   padding: 3em 2em;
   -webkit-box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
@@ -318,7 +319,7 @@ header {
 
 .custom-icon {
   font-size: 70px;
-  color: #B22222;
+  color: #c10b1a;
 }
 
 /* Owl Carousel */
@@ -378,7 +379,7 @@ header {
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-  background: #B22222;
+  background: #c10b1a;
 }
 
 .owl-carousel.home-slider {
@@ -551,7 +552,7 @@ header {
 }
 
 .cta-link {
-  background: #B22222;
+  background: #c10b1a;
   padding: 3.5em 0 3em 0;
   display: block;
   text-align: center;
@@ -622,7 +623,7 @@ header {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: #B22222;
+  background: #c10b1a;
 }
 
 .text-black {
@@ -651,7 +652,7 @@ header {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #B22222;
+  color: #c10b1a;
 }
 
 .media-feature h3 {
@@ -666,7 +667,7 @@ header {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #B22222;
+  border-bottom: 10px solid #c10b1a;
 } */
 
 .media-custom {
@@ -754,11 +755,11 @@ header {
 }
 
 .site-footer a {
-  color: #B22222;
+  color: #c10b1a;
 }
 
 .site-footer a:hover {
-  color: #B22222;
+  color: #c10b1a;
 }
 
 .site-footer h3 {
@@ -787,8 +788,8 @@ header {
 }
 
 .footer-social a:hover {
-  background: #B22222;
-  border-color: #B22222;
+  background: #c10b1a;
+  border-color: #c10b1a;
   color: #fff;
 }
 
