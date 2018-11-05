@@ -1,7 +1,8 @@
-@font-face { 
+/*@font-face { 
   font-family: "HoltwoodOneSC";
   src: url("../css/HoltwoodOneSC.ttf"); 
 }
+*/
 
 body {
   background: #fff;
@@ -25,7 +26,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "HoltwoodOneSC";
+  font-family: "Copperplate Gothic Light";
 }
 
 .btn, .form-control {
@@ -35,7 +36,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-primary {
-  font-family: "HoltwoodOneSC";
+  font-family: "Copperplate Gothic Light";
   color: #B22222;
   color: #fff;
   border-width: 2px;
@@ -63,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-outline-primary {
-  font-family:"HoltwoodOneSC";
+  font-family:"Copperplate Gothic Light";
   border-width: 2px;
   color: #B22222;
 }
@@ -95,8 +96,20 @@ header {
   z-index: 5;
 }
 
+/* header .navbar-brand {
+  position: absolute;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 200px;
+  height: auto;
+  top: 15px;
+  left: 50px;
+} */
+
 header .navbar-brand {
-  font-family: "HoltwoodOneSC";
+  width: 200px;
+  height: auto;
+  font-family: "Copperplate Gothic Light";
   text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 1.5vw;
@@ -182,11 +195,13 @@ header .navbar {
 }
 
 header .navbar .nav-link {
-  font-family:"HoltwoodOneSC";
-  font-size: .75vw;
+  font-family:"Open-Sans", "Copperplate Gothic Light";
+  font-size: 18px;
+  font-weight:bold;
+  color: black !important; 
   padding: 1.7rem 1rem;
   outline: none !important;
-
+  text-align: right;
 }
 
 @media (max-width: 1199px) {
@@ -197,13 +212,10 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link.active {
-  font-family:"HoltwoodOneSC";
-  color: #B22222 !important;
-  text-shadow: 
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  font-family:"Copperplate Gothic Light";
+  font-weight:bold;
+  color: #c43b3b !important;
+  text-shadow: text-shadow: #000 0px 0px 1px; 
 }
 
 header .navbar .nav-link:hover {
@@ -222,12 +234,12 @@ header .navbar .dropdown-menu {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #B22222;
+  background: #c43b3b;
   color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #B22222;
+  background: #c43b3b;
   color: #fff;
 }
 
@@ -271,7 +283,7 @@ header {
 }
 
 .cta-overlap .text {
-  font-family: "HoltwoodOneSC";
+  font-family: "Copperplate Gothic Light";
   background: #B22222;
   padding: 3em 2em;
   -webkit-box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
