@@ -410,7 +410,7 @@ header {
   background-position: center center;
   height: calc(100vh - 117px);
   min-height: 700px;
-  overflow: scroll;
+  overflow: hidden;
 -webkit-overflow-scrolling: touch;
 }
 
@@ -678,6 +678,8 @@ header {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .media-custom .meta-post {
@@ -807,6 +809,8 @@ header {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .link-thumbnail .icon {
@@ -895,7 +899,7 @@ header {
 .element-animate {
   opacity: 0;
   visibility: hidden;
-  overflow: scroll;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
