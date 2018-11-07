@@ -403,15 +403,17 @@ header {
   visibility: visible;
 }
 
-/* .owl-carousel.home-slider .slider-item {
+.owl-carousel.home-slider .slider-item {
   background-attachment: scroll;
   background-size: 1%;
   background-repeat: no-repeat;
   background-position: center center;
   height: calc(100vh - 117px);
   min-height: 700px;
+  overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
-*/
+
 .owl-carousel.home-slider .slider-item .slider-text {
   color: #00000;
   height: calc(100vh - 117px);
