@@ -895,6 +895,8 @@ header {
 .element-animate {
   opacity: 0;
   visibility: hidden;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 #loader {
