@@ -49,8 +49,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  border-color: #c10b1a;
-  background: #c10b1a;
+  border-color: #F10116;
+  background: #F10116;
   border: 2px solid black;
   text-shadow:
    -1px -1px 0 #000,
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 .btn.btn-outline-primary {
   font-family: Copperplate, Copperplate Gothic Light, Copperplate Gothic, fantasy, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-width: 2px;
-  color: #c10b1a;
+  color: #F10116;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
-  background: #c10b1a;
+  background: #F10116;
   color: #fff;
 }
 
@@ -115,11 +115,11 @@ header .navbar-brand {
   font-size: 16px;
   font-weight: 999;
   font-style: bold;
-  color: #c10b1a;
+  color: #F10116;
 }
 
 header .navbar-brand span {
-  color: #c10b1a;
+  color: #F10116;
 }
 
 header .top-bar {
@@ -210,13 +210,13 @@ header .navbar .nav-link {
 header .navbar .nav-link.active {
   font-family: Copperplate, Copperplate Gothic Light, Copperplate Gothic, fantasy, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight:bold;
-  color: #c10b1a !important;
+  color: #F10116 !important;
   
 
 }
 
 header .navbar .nav-link:hover {
-  color: #c10b1a !important;
+  color: #F10116 !important;
 }
 
 header .navbar .dropdown-menu {
@@ -231,12 +231,12 @@ header .navbar .dropdown-menu {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #c10b1a;
+  background: #F10116;
   color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #c10b1a;
+  background: #F10116;
   color: #fff;
 }
 
@@ -246,7 +246,7 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar .cta-btn a {
-  background: #c10b1a;
+  background: #F10116;
   color: #000 !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -281,7 +281,7 @@ header {
 
 .cta-overlap .text {
   font-family: Copperplate, Copperplate Gothic Light, Copperplate Gothic, fantasy, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  background: #c10b1a;
+  background: #F10116;
   padding: 3em 2em;
   -webkit-box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
@@ -315,7 +315,7 @@ header {
 
 .custom-icon {
   font-size: 70px;
-  color: #c10b1a;
+  color: #F10116;
 }
 
 /* Owl Carousel */
@@ -375,7 +375,7 @@ header {
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-  background: #c10b1a;
+  background: #F10116;
 }
 
 .owl-carousel.home-slider {
@@ -550,7 +550,7 @@ header {
 }
 
 .cta-link {
-  background: #c10b1a;
+  background: #F10116;
   padding: 3.5em 0 3em 0;
   display: block;
   text-align: center;
@@ -621,7 +621,7 @@ header {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: #c10b1a;
+  background: #F10116;
 }
 
 .text-black {
@@ -650,7 +650,7 @@ header {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #c10b1a;
+  color: #F10116;
 }
 
 .media-feature h3 {
@@ -665,7 +665,7 @@ header {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #c10b1a;
+  border-bottom: 10px solid #F10116;
 } */
 
 .media-custom {
@@ -755,11 +755,11 @@ header {
 }
 
 .site-footer a {
-  color: #c10b1a;
+  color: #F10116;
 }
 
 .site-footer a:hover {
-  color: #c10b1a;
+  color: #F10116;
 }
 
 .site-footer h3 {
@@ -768,7 +768,7 @@ header {
 }
 
 .site-footer .footer-link li {
-  line-height: 1.5;
+  line-height: 2.25;
   margin-bottom: 15px;
 }
 
@@ -788,8 +788,8 @@ header {
 }
 
 .footer-social a:hover {
-  background: #c10b1a;
-  border-color: #c10b1a;
+  background: #F10116;
+  border-color: #F10116;
   color: #fff;
 }
 
