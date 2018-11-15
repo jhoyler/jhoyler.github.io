@@ -193,7 +193,7 @@ header .navbar {
 header .navbar .nav-link {
   font-family: Copperplate, Copperplate Gothic Light, Copperplate Gothic, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 18px;
-  /* font-weight:bold; */
+  font-weight:bold;
   color: black !important; 
   padding: 1.7rem 1rem;
   outline: none !important;
@@ -209,8 +209,12 @@ header .navbar .nav-link {
 
 header .navbar .nav-link.active {
   font-family: "CopperplateBold", Copperplate, Copperplate Gothic Light, Copperplate Gothic, fantasy, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-weight:bold;
   color: #F10116 !important;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   
 
 }
