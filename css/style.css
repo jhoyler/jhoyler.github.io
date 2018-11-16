@@ -416,7 +416,7 @@ header {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
-  font-size: 40px;
+  font-size: 32px;
   font-size: 4vw;
   color: #00000;
   line-height: 1.2;
@@ -426,7 +426,7 @@ header {
 
 @media (max-width: 991px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 
