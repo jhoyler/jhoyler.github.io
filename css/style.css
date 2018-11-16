@@ -22,6 +22,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #6ab222;
 }
 
 h1, h2, h3, h4, h5 {
@@ -210,13 +211,6 @@ header .navbar .nav-link {
 header .navbar .nav-link.active {
   font-family: "CopperplateBold", Copperplate, Copperplate Gothic Light, Copperplate Gothic, fantasy, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #F10116 !important;
-  text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  
-
 }
 
 header .navbar .nav-link:hover {
