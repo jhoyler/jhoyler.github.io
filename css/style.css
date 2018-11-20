@@ -206,8 +206,7 @@ header .navbar {
 
 header .navbar .nav-link {
   font-family: "CopperplateBold", Copperplate, Copperplate Gothic Light, Copperplate Gothic, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 18px;
-  font-weight:bold;
+  font-size: 1.45vw;
   color: black !important; 
   padding: 1.7rem 1rem;
   outline: none !important;
