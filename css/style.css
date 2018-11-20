@@ -1036,3 +1036,9 @@ header {
   width: 100%;
   height: auto;
 }
+
+.e-mail{
+  content: attr(data-website) "\0040" attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
