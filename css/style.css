@@ -108,7 +108,7 @@ header {
 } */
 
 header .navbar-brand {
-  width: 275px;
+  width: 250px;
   height: auto;
   font-family: "CopperplateBold", Copperplate, Copperplate Gothic Light, Copperplate Gothic, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-transform: uppercase;
@@ -121,7 +121,7 @@ header .navbar-brand {
 }
 
 header .navbar-brand:hover {
-  width: 300px;
+  width: 250px;
   height: auto;
   font-family: "CopperplateBold", Copperplate, Copperplate Gothic Light, Copperplate Gothic, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-transform: uppercase;
